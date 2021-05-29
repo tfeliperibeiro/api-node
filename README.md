@@ -1,4 +1,4 @@
-<h1>API CRUD em Node e Firebase</h1>
+<h1>API CRUD em Node Js e Firebase</h1>
 
 <p>API Desenvolvida em Node e integrada ao banco de dados firebase.</p>
 
