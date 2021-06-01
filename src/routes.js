@@ -3,9 +3,9 @@ import HandleDB from './controllers/HandleDB';
 
 const routes = new Router();
 
-routes.get('/', HandleDB.getDados);
-routes.put('/', HandleDB.updateDados);
-routes.post('/', HandleDB.createDados);
-routes.delete('/', HandleDB.deleteDados);
+routes.get('/buscar', HandleDB.getDados);
+routes.put('/atualizar/id', HandleDB.updateDados);
+routes.post('/criar', HandleDB.createDados);
+routes.delete('/deletar/id', HandleDB.deleteDados);
 
 export default routes;
